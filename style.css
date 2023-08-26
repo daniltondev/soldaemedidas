@@ -1,0 +1,92 @@
+@import url('https://fonts.cdnfonts.com/css/santral-blackitalic');
+@import url('https://fonts.cdnfonts.com/css/times-new-roman');
+
+* {
+    --tiff-color: #81D8D0;
+}
+
+body {
+    font-family: 'Santral-Medium', sans-serif;
+    /* background-color: var(--tiff-color); */
+}
+
+.logo {
+    display: flex;
+    font-family: 'Times New Roman', sans-serif;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid var(--tiff-color);
+    font-size: 24px;
+}
+
+p {
+    background-color: aliceblue;
+    margin: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    min-width: 300px;
+}
+
+.logo-p {
+    margin: 1rem;   
+    background-color: white;
+    min-width: unset;
+}
+
+.first-letter {
+    font-size: 35px;
+}
+
+.title {
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    margin-bottom: 3rem;
+}
+
+.result-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.valor-inicial {
+    max-width: 100px;
+    text-align: center;
+}
+
+.gramas {
+    font-size: 11px;
+}
+
+footer {
+    background-color: var(--tiff-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-p {
+    background-color: unset;
+}
+
+@media (max-width: 420px) {
+    .logo {
+        font-size: 18px;
+    }
+
+    .first-letter {
+        font-size: 29px;
+    }
+}
